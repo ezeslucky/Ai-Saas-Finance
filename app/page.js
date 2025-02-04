@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
- <div>
-  hii man 
+ <div className=" mt-40">
+  nidmkqiidnxmsHXU
  </div> 
   );
 }
