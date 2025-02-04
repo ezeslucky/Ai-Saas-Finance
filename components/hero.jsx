@@ -44,7 +44,7 @@ const HeroSection = () => {
           </Link>
           <Link href="https://github.com/ezeslucky/Ai-Saas-Finance.git">
             <Button size="lg" variant="outline" className="px-8">
-              Githuh
+              Github
             </Button>
           </Link>
         </div>
