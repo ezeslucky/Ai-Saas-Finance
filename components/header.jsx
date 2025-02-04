@@ -5,7 +5,7 @@ import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 // import { checkUser } from "@/lib/checkUser";
 import Image from "next/image";
-import { ThemeToggle } from "./ThemeToggle";
+
 
 const Header = async () => {
   // await checkUser();
@@ -25,7 +25,7 @@ const Header = async () => {
 
         {/* Navigation Links - Different for signed in/out users */}
         <div className="hidden md:flex items-center space-x-8">
-          {/* <ThemeToggle/> */}
+          
           <SignedOut>
             <a href="#features" className="text-gray-600 hover:text-blue-600">
               Features

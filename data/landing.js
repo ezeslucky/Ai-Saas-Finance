@@ -10,7 +10,7 @@ import {
   // Stats Data
   export const statsData = [
     {
-      value: "50",
+      value: "50K",
       label: "Active Users",
     },
     {
