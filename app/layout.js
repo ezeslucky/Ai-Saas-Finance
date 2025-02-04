@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Finance",
+  title: "AIvest",
   description: "One stope Finance Platfrom",
 };
 
