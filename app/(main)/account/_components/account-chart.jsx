@@ -12,14 +12,14 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { format, subDays, startOfDay, endOfDay } from "date-fns";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "../../../../components/ui/card";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../../../../components/ui/select";
 
 const DATE_RANGES = {
   "7D": { label: "Last 7 Days", days: 7 },

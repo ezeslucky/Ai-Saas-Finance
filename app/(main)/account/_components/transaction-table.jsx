@@ -23,35 +23,35 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Input } from "@/components/ui/input";
+} from "../../../../components/ui/table";
+import { Input } from "../../../../components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../../../../components/ui/select";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
   DropdownMenuSeparator,
-} from "@/components/ui/dropdown-menu";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Button } from "@/components/ui/button";
+} from "../../../../components/ui/dropdown-menu";
+import { Checkbox } from "../../../../components/ui/checkbox";
+import { Button } from "../../../../components/ui/button";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
-import { categoryColors } from "@/data/categories";
-import { bulkDeleteTransactions } from "@/actions/account";
-import useFetch from "@/hooks/use-fetch";
+} from "../../../../components/ui/tooltip";
+import { Badge } from "../../../../components/ui/badge";
+import { cn } from "../../../../lib/utils";
+import { categoryColors } from "../../../../data/categories";
+import { bulkDeleteTransactions } from "../../../../actions/account";
+import useFetch from "../../../../hooks/use-fetch";
 import { BarLoader } from "react-spinners";
 import { useRouter } from "next/navigation";
 
