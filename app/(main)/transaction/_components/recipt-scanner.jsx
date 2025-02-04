@@ -2,10 +2,10 @@
 
 import { useRef, useEffect } from "react";
 import { Camera, Loader2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../../../components/ui/button";
 import { toast } from "sonner";
-import useFetch from "@/hooks/use-fetch";
-import { scanReceipt } from "@/actions/transaction";
+import useFetch from "../../../../hooks/use-fetch";
+import { scanReceipt } from "../../../../actions/transaction";
 
 export function ReceiptScanner({ onScanComplete }) {
   const fileInputRef = useRef(null);

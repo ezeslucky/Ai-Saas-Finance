@@ -112,7 +112,7 @@ const LandingPage = () => {
           </h2>
           <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
             Join thousands of users who are already managing their finances
-            smarter with AIvest
+            smarter with Welth
           </p>
           <Link href="/dashboard">
             <Button

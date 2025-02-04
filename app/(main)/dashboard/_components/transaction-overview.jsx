@@ -18,9 +18,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+} from "../../../../components/ui/select";
+import { Card, CardContent, CardHeader, CardTitle } from "../../../../components/ui/card";
+import { cn } from "../../../../lib/utils";
 
 const COLORS = [
   "#FF6B6B",

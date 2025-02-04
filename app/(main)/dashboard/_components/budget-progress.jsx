@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Pencil, Check, X } from "lucide-react";
-import useFetch from "@/hooks/use-fetch";
+import useFetch from "../../../../hooks/use-fetch";
 import { toast } from "sonner";
 
 import {
@@ -11,11 +11,11 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { updateBudget } from "@/actions/budget";
+} from "../../../../components/ui/card";
+import { Progress } from "../../../../components/ui/progress";
+import { Button } from "../../../../components/ui/button";
+import { Input } from "../../../../components/ui/input";
+import { updateBudget } from "../../../../actions/budget";
 
 export function BudgetProgress({ initialBudget, currentExpenses }) {
   const [isEditing, setIsEditing] = useState(false);
