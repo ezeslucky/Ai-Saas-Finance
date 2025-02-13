@@ -1,25 +1,28 @@
-🚀 AI SaaS Finance
-AI SaaS Finance is a smart financial analytics platform powered by AI. It helps users track expenses, analyze financial trends, and make data-driven decisions effortlessly.
+# 🚀 AI SaaS Finance  
 
-🌐 Live Demo: AI SaaS Finance
+AI SaaS Finance is a smart financial analytics platform powered by AI. It helps users track expenses, analyze financial trends, and make data-driven decisions effortlessly.  
 
-📌 Features
-✅ AI-Powered Financial Insights – Get automated analysis and recommendations.
-✅ Expense Tracking – Monitor your spending trends with ease.
-✅ Real-Time Data – Fetch live financial updates for better decision-making.
-✅ Secure Authentication – Protect user data with robust security measures.
-✅ Modern UI/UX – Sleek, responsive, and intuitive design.
+🌐 **Live Demo:** [AI SaaS Finance](https://ai-saas-finance-facm-delta.vercel.app/)  
 
-🛠 Tech Stack
-🔹 Frontend: Next.js, React, TypeScript, Tailwind CSS,  Shadcn UI
-🔹 Backend: Node.js, Express,Prisma, Inngest, ArcJet,
-🔹 Database: PostgreSQL, Supabase
-🔹 AI Integration: OpenAI API / Custom AI models
-🔹 Deployment: Vercel
+## 📌 Features  
 
- 🚀 Getting Started
+✅ **AI-Powered Financial Insights** – Get automated analysis and recommendations.  
+✅ **Expense Tracking** – Monitor your spending trends with ease.  
+✅ **Real-Time Data** – Fetch live financial updates for better decision-making.  
+✅ **Secure Authentication** – Protect user data with robust security measures.  
+✅ **Modern UI/UX** – Sleek, responsive, and intuitive design.  
+
+## 🛠 Tech Stack  
+
+🔹 **Frontend:** Next.js, React, TypeScript, Tailwind CSS  
+🔹 **Backend:** Node.js, Express  
+🔹 **Database:** PostgreSQL / MongoDB (whichever applies)  
+🔹 **AI Integration:** OpenAI API / Custom AI models  
+🔹 **Deployment:** Vercel  
+
+## 🚀 Getting Started  
  Clone the Repository
-```
+```sh
 git clone https://github.com/ezeslucky/Ai-Saas-Finance.git
 cd Ai-Saas-Finance
 ```
@@ -56,3 +59,11 @@ Contributions are welcome! If you’d like to improve AI SaaS Finance, feel free
 
 📜 License
 This project is licensed under the MIT License.
+### 📌 Final Step:
+Once you've saved this file, commit and push it to GitHub:
+
+```sh
+git add README.md
+git commit -m "Added README file"
+git push origin main
+```
