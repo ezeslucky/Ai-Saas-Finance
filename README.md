@@ -57,6 +57,13 @@ The app will be live at http://localhost:3000 🚀
 🤝 Contributing
 Contributions are welcome! If you’d like to improve AI SaaS Finance, feel free to submit a pull request.
 
+## 🐞 Known Issues
+
+🔹 **Performance Optimization:** Some AI queries may take longer than expected. Optimizing API calls is a work in progress.  
+🔹 **Mobile Responsiveness:** A few UI elements may need adjustments for smaller screens.  
+
+If you encounter any issues, feel free to report them [here](https://github.com/ezeslucky/Ai-Saas-Finance/issues).
+
 📜 License
 This project is licensed under the MIT License.
 ### 📌 Final Step:
