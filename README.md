@@ -74,3 +74,9 @@ git add README.md
 git commit -m "Added README file"
 git push origin main
 ```
+---
+
+## ⭐ Show Your Support  
+If you like this project, give it a **star** ⭐ on GitHub!  
+
+[![Star on GitHub](https://img.shields.io/github/stars/ezeslucky/Ai-Saas-Finance?style=social)](https://github.com/ezeslucky/Ai-Saas-Finance/stargazers) 
